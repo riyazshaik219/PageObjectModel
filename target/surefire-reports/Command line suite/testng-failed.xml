@@ -3,6 +3,21 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
+      <class name="com.crm.qa.testcases.DealsPageTest">
+        <methods>
+          <include name="validatecreatNewDeal"/>
+          <include name="verifyDealsPageLabel"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
+      <class name="com.crm.qa.testcases.TaskPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validatecreatNewTask"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.TaskPageTest -->
       <class name="com.crm.qa.testcases.HomePageTest">
         <methods>
           <include name="verifyuserlabelTest"/>
@@ -22,7 +37,7 @@
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
-          <include name="validatecreatNewContact" invocation-numbers="1"/>
+          <include name="validatecreatNewContact"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="verifycontactspagelabel"/>

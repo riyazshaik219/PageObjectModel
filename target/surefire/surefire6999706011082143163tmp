@@ -1,5 +1,5 @@
 #surefire
-#Thu Sep 17 11:29:55 IST 2020
+#Thu Sep 17 17:50:59 IST 2020
 excludes0=**/*$*
 useSystemClassLoader=true
 enableAssertions=true
@@ -10,8 +10,10 @@ includes2=**/*TestCase.java
 classPathUrl.50=C\:\\Users\\AM\\.m2\\repository\\log4j\\log4j\\1.2.8\\log4j-1.2.8.jar
 includes1=**/*Test.java
 includes0=**/Test*.java
-tc.2=com.crm.qa.testcases.LoginPageTest
-tc.1=com.crm.qa.testcases.HomePageTest
+tc.4=com.crm.qa.testcases.TaskPageTest
+tc.3=com.crm.qa.testcases.LoginPageTest
+tc.2=com.crm.qa.testcases.HomePageTest
+tc.1=com.crm.qa.testcases.DealsPageTest
 tc.0=com.crm.qa.testcases.ContactsPageTest
 runStatisticsFile=D\:\\Automation\\FreeCRmTest\\.surefire-E8943B4FBB094834D6C55577ABF5B54BF4F598D8
 surefireClassPathUrl.9=C\:\\Users\\AM\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-booter\\2.12.4\\surefire-booter-2.12.4.jar
@@ -73,10 +75,10 @@ surefireClassPathUrl.14=C\:\\Users\\AM\\.m2\\repository\\classworlds\\classworld
 classPathUrl.25=C\:\\Users\\AM\\.m2\\repository\\com\\relevantcodes\\extentreports\\2.41.2\\extentreports-2.41.2.jar
 surefireClassPathUrl.13=C\:\\Users\\AM\\.m2\\repository\\org\\codehaus\\plexus\\plexus-container-default\\1.0-alpha-9-stable-1\\plexus-container-default-1.0-alpha-9-stable-1.jar
 classPathUrl.24=C\:\\Users\\AM\\.m2\\repository\\org\\apache-extras\\beanshell\\bsh\\2.0b6\\bsh-2.0b6.jar
-classPathUrl.23=C\:\\Users\\AM\\.m2\\repository\\com\\beust\\jcommander\\1.72\\jcommander-1.72.jar
 surefireClassPathUrl.12=C\:\\Users\\AM\\.m2\\repository\\org\\apache\\maven\\maven-model\\2.0.9\\maven-model-2.0.9.jar
-classPathUrl.22=C\:\\Users\\AM\\.m2\\repository\\org\\testng\\testng\\6.14.3\\testng-6.14.3.jar
+classPathUrl.23=C\:\\Users\\AM\\.m2\\repository\\com\\beust\\jcommander\\1.72\\jcommander-1.72.jar
 surefireClassPathUrl.11=C\:\\Users\\AM\\.m2\\repository\\org\\apache\\maven\\maven-settings\\2.0.9\\maven-settings-2.0.9.jar
+classPathUrl.22=C\:\\Users\\AM\\.m2\\repository\\org\\testng\\testng\\6.14.3\\testng-6.14.3.jar
 classPathUrl.21=C\:\\Users\\AM\\.m2\\repository\\com\\squareup\\okio\\okio\\1.14.0\\okio-1.14.0.jar
 surefireClassPathUrl.10=C\:\\Users\\AM\\.m2\\repository\\org\\apache\\maven\\maven-project\\2.0.9\\maven-project-2.0.9.jar
 classPathUrl.20=C\:\\Users\\AM\\.m2\\repository\\com\\squareup\\okhttp3\\okhttp\\3.11.0\\okhttp-3.11.0.jar

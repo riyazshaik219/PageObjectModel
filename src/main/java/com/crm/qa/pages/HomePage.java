@@ -18,6 +18,10 @@ public class HomePage extends TestBase {
 	WebElement Dealslink;
 	@FindBy(css="#main-nav>a:nth-child(6)")
 	WebElement tasklink;
+	@FindBy(xpath="//button[contains(text(),'New')]")
+	WebElement NewDealsLink;
+	@FindBy(xpath="//button[contains(text(),'New')]")
+	WebElement NewTaskLink;
 public HomePage() {
 	PageFactory.initElements(driver, this);
 }
@@ -42,7 +46,14 @@ public TaskPage clickOnTasklink() {
 public void clickOnNewContactsLink() {
 	contactslink.click();
 	NewContactLink.click();
-	
+}
+public void clickOnNewDealsLink() {
+	Dealslink.click();
+	NewDealsLink.click();
+}
+public void clickOnNewTaskLink() {
+	tasklink.click();
+	NewTaskLink.click();
 	
 }
 
