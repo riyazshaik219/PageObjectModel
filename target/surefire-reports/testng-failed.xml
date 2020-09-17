@@ -37,7 +37,7 @@
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
-          <include name="validatecreatNewContact"/>
+          <include name="validatecreatNewContact" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="verifycontactspagelabel"/>

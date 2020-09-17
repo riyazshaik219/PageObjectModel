@@ -1,5 +1,5 @@
 #surefire
-#Thu Sep 17 17:50:59 IST 2020
+#Thu Sep 17 19:00:57 IST 2020
 excludes0=**/*$*
 useSystemClassLoader=true
 enableAssertions=true
@@ -72,7 +72,7 @@ classPathUrl.27=C\:\\Users\\AM\\.m2\\repository\\org\\freemarker\\freemarker\\2.
 surefireClassPathUrl.15=C\:\\Users\\AM\\.m2\\repository\\org\\apache\\maven\\maven-profile\\2.0.9\\maven-profile-2.0.9.jar
 classPathUrl.26=C\:\\Users\\AM\\.m2\\repository\\org\\jsoup\\jsoup\\1.8.3\\jsoup-1.8.3.jar
 surefireClassPathUrl.14=C\:\\Users\\AM\\.m2\\repository\\classworlds\\classworlds\\1.1\\classworlds-1.1.jar
-classPathUrl.25=C\:\\Users\\AM\\.m2\\repository\\com\\relevantcodes\\extentreports\\2.41.2\\extentreports-2.41.2.jar
+classPathUrl.25=C\:\\Users\\AM\\.m2\\repository\\com\\relevantcodes\\extentreports\\2.40.2\\extentreports-2.40.2.jar
 surefireClassPathUrl.13=C\:\\Users\\AM\\.m2\\repository\\org\\codehaus\\plexus\\plexus-container-default\\1.0-alpha-9-stable-1\\plexus-container-default-1.0-alpha-9-stable-1.jar
 classPathUrl.24=C\:\\Users\\AM\\.m2\\repository\\org\\apache-extras\\beanshell\\bsh\\2.0b6\\bsh-2.0b6.jar
 surefireClassPathUrl.12=C\:\\Users\\AM\\.m2\\repository\\org\\apache\\maven\\maven-model\\2.0.9\\maven-model-2.0.9.jar
